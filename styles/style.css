@@ -6,7 +6,7 @@ body {
 	justify-content: space-between;
 	flex-direction: column;
 	gap: 52px;
-    height: 100vh;
+	height: 100vh;
 }
 .header {
 	margin: 0 128px;
@@ -57,9 +57,8 @@ main {
 	overflow: hidden;
 	display: flex;
 	align-items: end;
-	
+
 	justify-content: end;
-	
 }
 
 .banner img {
@@ -94,22 +93,29 @@ main {
 	font-size: 12px;
 	border-radius: 36px;
 	border: 1px solid black;
-	box-shadow: 3px 6px black;
+	width: 235px;
 	gap: 10px;
 }
-
 .CTA button:hover{
-cursor: pointer;
-
+	cursor: pointer;
 }
-.click button{
-	
+.container_button {
+	padding: 0 2px 5px 0;
+	background-color: #000000;
+	width: 235px;
+	border-radius: 36px;
 }
-
+.click {
+	margin-bottom: 3px;
+	padding: 2px 0 0 5px;
+	background-color: transparent;
+}
 footer nav ul {
 	display: flex;
 	flex-direction: row;
 	gap: 1rem;
+	
+	justify-content: center;
 }
 
 .ico {
