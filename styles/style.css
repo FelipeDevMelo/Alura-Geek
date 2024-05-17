@@ -3,13 +3,14 @@
 body {
 	background-color: #fcf9f4;
 	display: flex;
+	justify-content: space-between;
 	flex-direction: column;
-	gap: 48px;
+	gap: 52px;
     height: 100vh;
 }
 .header {
 	margin: 0 128px;
-	padding: 2rem 0 2rem 1rem;
+	padding: 1rem 0 1rem 0.5rem;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 500;
 	font-size: 16px;
@@ -22,6 +23,7 @@ body {
 main,
 footer {
 	margin: 0 128px;
+	padding: 0 0 1rem 0.5rem;
 }
 main {
 	display: flex;
@@ -32,22 +34,29 @@ main {
 	position: absolute;
 	top: 0;
 	right: 0;
-	width: 50%; /* 50% da largura da tela */
+	width: 65%; /* 50% da largura da tela */
 	height: 100%; /* 100% da altura da tela */
 	overflow: hidden;
+	display: flex;
+	align-items: end;
+	
+	justify-content: end;
+	
 }
+
 .banner img {
 	position: absolute;
 	top: 0;
-	left: 0;
-	width: 100%;
+	right: 0;
+	width: 60%;
 	height: 100%;
 	object-fit: cover;
 }
 .CTA h1 {
 	font-family: "Josefin Sans", sans-serif;
-	font-size: 150px;
+	font-size: 210px;
 	font-weight: bold;
+	line-height: 165px;
 	color: #ff8c5b;
 	text-shadow: 3px 6px #000000;
 }
@@ -70,9 +79,7 @@ main {
 	box-shadow: 3px 6px black;
 	gap: 10px;
 }
-footer {
-	margin-top: 32px;
-}
+
 footer nav ul {
 	display: flex;
 	flex-direction: row;
@@ -80,5 +87,5 @@ footer nav ul {
 }
 
 .ico {
-	width: 30px;
+	width: 24px;
 }
