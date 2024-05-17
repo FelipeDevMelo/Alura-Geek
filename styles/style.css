@@ -12,13 +12,31 @@ body {
 	margin: 0 128px;
 	padding: 1rem 0 1rem 0.5rem;
 	font-family: "Open Sans", sans-serif;
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 16px;
 }
 .header_navbar ul {
 	display: flex;
 	flex-direction: row;
 	gap: 1rem;
+}
+.header_navbar ul li a {
+	color: #000000;
+	position: relative;
+}
+.header_navbar ul li a::after {
+	content: "";
+	position: absolute;
+	bottom: -3px; /* ajuste a altura da linha conforme necessário */
+	left: 0;
+	width: 0;
+	height: 2px;
+	background-color: #69ebb3; /* cor da linha */
+	transition: width 0.3s; /* animação de transição da largura da linha */
+}
+
+.header_navbar ul li a:hover::after {
+	width: 100%; /* largura da linha ao passar o mouse */
 }
 main,
 footer {
@@ -78,6 +96,14 @@ main {
 	border: 1px solid black;
 	box-shadow: 3px 6px black;
 	gap: 10px;
+}
+
+.CTA button:hover{
+cursor: pointer;
+
+}
+.click button{
+	
 }
 
 footer nav ul {
