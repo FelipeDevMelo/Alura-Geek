@@ -3,9 +3,9 @@
 body {
 	background-color: #fcf9f4;
 	display: flex;
-	justify-content: space-between;
+	
 	flex-direction: column;
-	gap: 52px;
+	gap: 48px;
 	height: 100vh;
 }
 .header {
@@ -69,6 +69,11 @@ main {
 	height: 100%;
 	object-fit: cover;
 }
+.CTA{
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
 .CTA h1 {
 	font-family: "Josefin Sans", sans-serif;
 	font-size: 210px;
@@ -109,6 +114,11 @@ main {
 	margin-bottom: 3px;
 	padding: 2px 0 0 5px;
 	background-color: transparent;
+}
+footer{
+	height: 9px;
+	bottom: 0;
+	
 }
 footer nav ul {
 	display: flex;
