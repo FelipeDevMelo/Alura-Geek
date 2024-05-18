@@ -7,9 +7,33 @@
 
 
 @media (max-width:900px) {
-	
-    .CTA h1{
-        font-size: 100px;
-        line-height: 100px;
+	main,footer{
+        margin: 0 64px;
     }
+    .CTA h1{
+        font-size: 150px;
+        line-height: 130px;
+    }
+    footer nav ul{
+        margin-top: 100px;
+    }
+    }
+
+
+    
+@media (max-width:600px) {
+	main,footer{
+        margin: 0 16px;
+    }
+    main{
+       display: flex;
+       align-items: center;
+       justify-content: center; 
+    }
+    .CTA{
+        
+    }
+   .banner{
+    display: none;
+   }
     }
