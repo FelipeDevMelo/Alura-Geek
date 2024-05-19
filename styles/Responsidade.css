@@ -25,13 +25,17 @@
 	.header {
 		margin: 0 16px;
 	}
+	footer {
+		margin-top: 4rem;
+	}
 	main {
 		display: flex;
 		align-items: center;
 		justify-content: center;
 	}
-	.CTA,.header {
-        display: flex;
+	.CTA,
+	.header {
+		display: flex;
 		align-items: center;
 	}
 	.banner {
