@@ -4,8 +4,10 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Alura Geek</title>
+		<script src="/Js/home.js" defer></script>
 		<link rel="stylesheet" href="/styles/reset.css" />
 		<link rel="stylesheet" href="/styles/style.css" />
+		<link rel="stylesheet" href="/styles/styleHomePage.css" />
 	</head>
 	<body>
 		<header>
@@ -22,10 +24,14 @@
 			</div>
 		</section>
 		<secition class="adicionar_produto">
-            <h3>Adcionar Produto</h3>
-            <form action="">
-                <input type="">
-            </form>
-        </secition>
+			<h3>Adcionar Produto</h3>
+			<form action="">
+				<label class="picture" for="picture__input" tabindex="0">
+					<span class="picture__image"></span>
+				</label>
+
+				<input type="file" name="picture__input" id="picture__input" />
+			</form>
+		</secition>
 	</body>
 </html>
