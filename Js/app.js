@@ -4,6 +4,8 @@ btnCTA.addEventListener("mousedown", (event) => {
 	event.preventDefault();
 	containerButton.classList.add("click");
 });
-document.addEventListener("mouseup", () => {
+document.addEventListener("mouseup", (event) => {
+	event.preventDefault();
 	containerButton.classList.remove("click");
+	
 });
