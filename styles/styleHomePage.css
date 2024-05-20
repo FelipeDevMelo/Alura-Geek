@@ -1,3 +1,35 @@
+.Meus-Produtos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+	background-color: #ffff;
+	box-shadow: 3px 6px #ff8c5b;
+	border-radius: 20px;
+	padding: 2rem;
+}
+.adicionar_produto {
+	background-color: #ffff;
+	box-shadow: 3px 6px #9747ff;
+	border-radius: 20px;
+	padding: 2rem;
+}
+
+.card_produto {
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 0.5rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.card_produto_preco_div {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
 #picture__input {
 	display: none;
 }

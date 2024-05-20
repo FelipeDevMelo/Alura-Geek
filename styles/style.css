@@ -3,7 +3,7 @@
 body {
 	background-color: #fcf9f4;
 	display: flex;
-
+	font-family: "Open Sans", sans-serif;
 	flex-direction: column;
 	gap: 48px;
 	height: 100vh;

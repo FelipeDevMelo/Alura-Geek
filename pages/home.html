@@ -13,34 +13,43 @@
 		<header>
 			<h2>Alura Geek</h2>
 		</header>
-		<section class="Meus-Produtos">
-			<h3>Meus Produtos</h3>
 
-			<div class="card_produto">
-				<img src="" alt="" class="card_img" />
-				<p class="produto_nome">gameboy</p>
-				<p class="produto_preco">$60.99</p>
-				<p class="icone_lixeira">X</p>
-			</div>
-		</section>
-		<section class="adicionar_produto">
-			<h3>Adcionar Produto</h3>
-			<form action="">
-				<label class="picture" for="picture__input" tabindex="0">
-					<span class="picture__image"></span>
-				</label>
+		<main class="conteudo__principal">
+			<section class="Meus-Produtos">
+				<h3>Meus Produtos</h3>
 
-				<input type="file" name="picture__input" id="picture__input" />
+				<div class="card_produto">
+					<img src="/assets/image 2.svg" alt="" class="card_img" />
+					<p class="produto_nome">gameboy</p>
+					<div class="card_produto_preco_div">
+						<p class="produto_preco">$60.99</p>
+						<p class="icone_lixeira">X</p>
+					</div>
+				</div>
+			</section>
+			<section class="adicionar_produto">
+				<h3>Adcionar Produto</h3>
+				<form action="">
+					<label class="picture" for="picture__input" tabindex="0">
+						<span class="picture__image"></span>
+					</label>
 
-				<label for="nome">Nome</label>
-				<input type="text" name="nome" id="" />
-				<label for="valor">Valor</label>
-				<input type="text" name="Valor" id="" />
+					<input
+						type="file"
+						name="picture__input"
+						id="picture__input"
+					/>
 
-				<input type="submit" value="Guardar" />
-				<input type="reset" value="Limpar" />
-			</form>
-		</section>
+					<label for="nome">Nome</label>
+					<input type="text" name="nome" id="" />
+					<label for="valor">Valor</label>
+					<input type="text" name="Valor" id="" />
+
+					<input type="submit" value="Guardar" />
+					<input type="reset" value="Limpar" />
+				</form>
+			</section>
+		</main>
 
 		<footer>
 			<h2>alura Geek</h2>
