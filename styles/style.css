@@ -38,8 +38,7 @@ body {
 .header_navbar ul li a:hover::after {
 	width: 100%; /* largura da linha ao passar o mouse */
 }
-main,
-footer {
+main {
 	margin: 0 128px;
 	padding: 0 0 1rem 0.5rem;
 }
@@ -105,7 +104,7 @@ main {
 .CTA a:hover {
 	cursor: pointer;
 }
-.CTA a:visited{
+.CTA a:visited {
 	text-decoration: none;
 	color: #000000;
 }
@@ -120,11 +119,11 @@ main {
 	padding: 2px 0 0 5px;
 	background-color: transparent;
 }
-footer {
+.footer_hero {
 	height: 9px;
 	bottom: 0;
 }
-footer nav ul {
+.footer_hero nav ul {
 	display: flex;
 	flex-direction: row;
 	gap: 1rem;
