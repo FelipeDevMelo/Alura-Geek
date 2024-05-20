@@ -31,7 +31,6 @@
 	padding: 2rem;
 }
 .formulario {
-   
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -39,15 +38,45 @@
 	gap: 0.5rem;
 	text-align: start;
 }
-.formulario div {
+.inputbox_nome,
+.inputbox_valor {
+    font-weight: bold;
+    margin-top: 1rem;
 	display: flex;
+    gap: 0.5rem;
 	flex-direction: column;
 	width: 289px;
 }
-.formulario input{
-    border: 1px solid black;
-    border-radius: 10px;
-    height: 42px;
+.formulario input {
+	border: 1px solid black;
+	border-radius: 10px;
+	height: 42px;
+    font-size: 16px;
+}
+.inputbox_submit {
+    margin-top: 2rem;
+	width: 289px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.inputbox_submit input {
+    height: 48px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+    justify-content: center;
+	font-weight: bold;
+	background-color: #69ebb3;
+	padding: 1rem;
+	font-size: 14px;
+	border-radius: 36px;
+	border: 1px solid black;
+	box-shadow: 3px 6px black;
+	width: 130px;
+}
+.inputbox_submit input:hover{
+    cursor: pointer;
 }
 .card__list {
 	display: flex;
@@ -83,7 +112,7 @@
 	justify-content: center;
 	color: #aaa;
 	border: 2px solid currentcolor;
-    border-radius: 10px;
+	border-radius: 10px;
 	cursor: pointer;
 	font-family: sans-serif;
 	transition: color 300ms ease-in-out, background 300ms ease-in-out;
@@ -110,11 +139,10 @@
 
 .picture__img {
 	max-width: 100%;
-	
 }
 
 span {
 	font-size: 14px;
 	font-weight: 600;
-    text-align: center;
+	text-align: center;
 }
