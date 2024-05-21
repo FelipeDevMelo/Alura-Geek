@@ -1,3 +1,8 @@
+body {
+	display: flex;
+	justify-content: space-between;
+}
+
 .header_Home {
 	margin: 0 128px;
 	padding: 1rem 0 1rem 0.5rem;
@@ -21,6 +26,7 @@
 }
 
 .conteudo__principal {
+	justify-content: center;
 	gap: 120px;
 }
 .titulo_section {
@@ -28,6 +34,7 @@
 	font-size: 24px;
 }
 .Meus-Produtos {
+	min-width: 360px;
 	width: 682px;
 	border: 1px solid black;
 	display: flex;
