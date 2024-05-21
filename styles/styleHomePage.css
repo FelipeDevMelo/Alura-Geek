@@ -170,19 +170,27 @@ span {
 }
 
 .footer_home {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    padding: 1rem;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	padding: 1rem;
+	justify-content: center;
+	align-items: center;
 	background-color: #7fd1ae;
+	font-weight: 500;
+	border-top: 1px solid black;
 }
-
+.direitos_footer {
+	font-weight: 400;
+	color: #302d2d;
+}
 .footer_home nav ul {
 	display: flex;
 	flex-direction: row;
 	gap: 1rem;
 
 	justify-content: center;
+}
+.footer_home h2 span {
+	color: #9747ff;
 }
