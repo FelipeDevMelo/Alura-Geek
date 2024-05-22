@@ -14,7 +14,7 @@ function constroiProduto(nome, imagem, valor) {
 <p class="produto_nome">${nome}</p>
 <div class="card_produto_preco_div">
     <p class="produto_preco">${valor}</p>
-    <img src="/assets/icon-lixeira.svg" alt="" />
+    <img src="/assets/icon-lixeira.svg" alt="" data-id />
 </div>`;
 	return produto;
 }
