@@ -1,7 +1,9 @@
 async function listaProdutos() {
-	const produtos = await fetch("http://localhost:3000/produtos");
-	produtosConvertidos = await produtos.json();
-	console.log(produtosConvertidos);
+	const conexao = await fetch("http://localhost:3000/produtos");
+	const conecaoConvertida = await conexao.json();
+	return conecaoConvertida;
 }
 
-listaProdutos();
+export const conectaApi = {
+	listaProdutos,
+};

@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Alura Geek</title>
 		<script src="/Js/home.js" defer></script>
-		<script src="/Js/conectaApi.js" defer></script>
+		<script src="/Js/mostrarProdutos.js" defer type="module"></script>
 		<link rel="stylesheet" href="/styles/reset.css" />
 		<link rel="stylesheet" href="/styles/style.css" />
 		<link rel="stylesheet" href="/styles/styleHomePage.css" />
@@ -19,57 +19,7 @@
 		<main class="conteudo__principal">
 			<section class="Meus-Produtos">
 				<h3 class="titulo_section">Meus Produtos</h3>
-				<section class="card__list">
-					<div class="card_produto">
-						<img
-							src="/assets/image 2.svg"
-							alt=""
-							class="card_img"
-						/>
-						<p class="produto_nome">gameboy</p>
-						<div class="card_produto_preco_div">
-							<p class="produto_preco">$60.99</p>
-							<img src="/assets/icon-lixeira.svg" alt="" />
-						</div>
-					</div>
-					<div class="card_produto">
-						<img
-							src="/assets/image 2.svg"
-							alt=""
-							class="card_img"
-						/>
-						<p class="produto_nome">gameboy</p>
-						<div class="card_produto_preco_div">
-							<p class="produto_preco">$60.99</p>
-							<img src="/assets/icon-lixeira.svg" alt="" />
-						</div>
-					</div>
-					<div class="card_produto">
-						<img
-							src="/assets/image 2.svg"
-							alt=""
-							class="card_img"
-						/>
-						<p class="produto_nome">gameboy</p>
-						<div class="card_produto_preco_div">
-							<p class="produto_preco">$60.99</p>
-							<img src="/assets/icon-lixeira.svg" alt="" />
-						</div>
-					</div>
-
-					<div class="card_produto">
-						<img
-							src="/assets/image 2.svg"
-							alt=""
-							class="card_img"
-						/>
-						<p class="produto_nome">gameboy</p>
-						<div class="card_produto_preco_div">
-							<p class="produto_preco">$60.99</p>
-							<img src="/assets/icon-lixeira.svg" alt="" />
-						</div>
-					</div>
-				</section>
+				<ul class="card__list" data-lista></ul>
 			</section>
 			<section class="adicionar_produto">
 				<h3 class="titulo_section">Adcionar Produto</h3>
