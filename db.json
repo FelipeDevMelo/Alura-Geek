@@ -1,0 +1,24 @@
+{
+	"produtos": [
+		{
+			"id": 1,
+			"nome": "GameBoy Advanced",
+			"imagem": "https://i.pinimg.com/564x/ce/d1/04/ced104fe12dbc1cc9c124d1b947a5f34.jpg"
+		},
+		{
+			"id": 2,
+			"nome": "Nitendo Switch",
+			"imagem": "https://i.pinimg.com/564x/19/5f/a5/195fa5b577378721030738d886e201bd.jpg"
+		},
+		{
+			"id": 3,
+			"nome": "Nitendo Switch Oled",
+			"imagem": "https://i.pinimg.com/564x/17/22/08/1722084d6f132a1f37d60750619a8702.jpg"
+		},
+		{
+			"id": 4,
+			"nome": "Nitendo 64",
+			"imagem": "https://i.pinimg.com/564x/23/a4/66/23a4663df0844b5a3416677661d7eca0.jpg"
+		}
+	]
+}
