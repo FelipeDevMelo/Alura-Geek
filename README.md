@@ -2,10 +2,10 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/FelipeDevMelo/Alura-Geek)
 ![NPM Version](https://img.shields.io/npm/v/json-server)
 
-```
+
 # AluraGeek
 
-Site de produtos de venda, projeto do #aluraChallenges onde criei requisições get, post e delete utilizando o jason-server para simular um servidor.
+Site de produtos de venda, projeto do #aluraChallenges onde criei requisições get, post e delete utilizando o json-server para simular um servidor.
 ## Instalação
 
 1. Clone o repositório do GitHub:
@@ -35,7 +35,7 @@ npm init
 ```
 
 ```bash
-json-server --watch db,json
+json-server --watch db.json
 ```
 
 2. Abra o navegador e acesse:
@@ -59,7 +59,7 @@ Se você quiser contribuir com este projeto, siga estas etapas:
 
 
 ## Contato
-meu email: Luizfelipe2011@gmail.com
+Meu email: Luizfelipe2011@gmail.com
 
 ```
 
