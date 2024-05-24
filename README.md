@@ -44,7 +44,7 @@ json-server --watch db.json
 http://localhost:3000
 ```
 
-Nesse projeto o usuario pode adcionar novos produtos e vizualiza-los em uma lista assim como deletta-los.
+Nesse projeto o usuario pode adcionar novos produtos e vizualiza-los em uma lista assim como deleta-los.
 
 ## Contribuindo
 
