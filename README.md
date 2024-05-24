@@ -11,7 +11,7 @@ Site de produtos de venda, projeto do #aluraChallenges onde criei requisições 
 1. Clone o repositório do GitHub:
 
 ```bash
-git clone https://github.com/seuusuario/seuprojeto.git
+https://github.com/FelipeDevMelo/Alura-Geek.git
 ```
 
 2. Navegue até o diretório do projeto:
