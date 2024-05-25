@@ -44,7 +44,8 @@ json-server --watch db.json
 http://localhost:3000
 ```
 ![WhatsApp Image 2024-05-25 at 12 21 57_3fcc7f40](https://github.com/FelipeDevMelo/Alura-Geek/assets/73553939/21109cad-d019-4ec2-aa49-1450e6518077)
-![WhatsApp Image 2024-05-25 at 12 21 57_8de81cb4](https://github.com/FelipeDevMelo/Alura-Geek/assets/73553939/2a1cdb65-c176-44db-96de-aa16fba6d390)
+![WhatsApp Image 2024-05-25 at 12 21 54_bb20fb9e](https://github.com/FelipeDevMelo/Alura-Geek/assets/73553939/e89032b9-27e7-45ad-8729-58e07fc96aa3)
+
 
 Nesse projeto o usuario pode adcionar novos produtos e vizualiza-los em uma lista assim como deleta-los.
 
