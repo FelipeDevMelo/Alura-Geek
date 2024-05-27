@@ -2,13 +2,9 @@
   "name": "meu-site",
   "version": "1.0.0",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
     "serve": "node api/index.js"
   },
   "dependencies": {
-    "json-server": "^0.16.3",
-    "react-scripts": "4.0.3"
-  },
-  "devDependencies": {}
+    "json-server": "^0.16.3"
+  }
 }
