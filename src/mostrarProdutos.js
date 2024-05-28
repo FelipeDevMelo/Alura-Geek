@@ -15,7 +15,7 @@ function constroiProduto(id, nome, imagem, valor) {
 <p class="produto_nome">${nome}</p>
 <div class="card_produto_preco_div">
     <p class="produto_preco">${valor}</p>
-    <img src="/assets/icon-lixeira.svg" alt="Deletar" class="delete-button" data-id="${id}" />
+    <img src="/public/assets/icon-lixeira.svg" alt="Deletar" class="delete-button" data-id="${id}" />
 </div>`;
 	return produto;
 }
