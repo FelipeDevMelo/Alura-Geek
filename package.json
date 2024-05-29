@@ -5,6 +5,12 @@
       "start": "vercel dev",
       "build": "echo 'Skipping build step as this is a static site'",
       "vercel-build": "echo 'Skipping build step as this is a static site'"
+    },
+    "devDependencies": {
+      "json-server": "^0.16.3"
+    },
+    "dependencies": {
+      "@vercel/node": "^1.12.1"
     }
   }
   

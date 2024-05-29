@@ -15,7 +15,7 @@ async function criarVideo(event) {
 		reader.onload = function (e) {
 			const base64Image = e.target.result;
 
-			fetch("http://localhost:3000/produtos", {
+			fetch("/api/produtos", {
 				method: "POST",
 				headers: {
 					"Content-Type": "application/json",

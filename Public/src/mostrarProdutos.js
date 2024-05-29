@@ -37,7 +37,7 @@ async function listaProdutos() {
 
 async function deletarProduto(id) {
 	try {
-		const response = await fetch(`http://localhost:3000/produtos/${id}`, {
+		const response = await fetch(`/api/produtos/${id}`, {
 			method: "DELETE",
 		});
 
